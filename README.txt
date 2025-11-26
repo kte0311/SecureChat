@@ -16,6 +16,10 @@ server_ui.py     - 서버 GUI 프로그램 (초록색 테마)
 crypto_utils.py  - RSA/AES 암호화 관련 함수 모듈
 key_utils.py     - RSA 키 생성 및 로드 기능
 keys/            - 클라이언트/서버의 공개키, 개인키 저장 폴더
+ ├─ client_private.pem ← 실제 파일 올리면 절대 안 됨
+ ├─ client_public.pem
+ ├─ server_private.pem
+ └─ server_public.pem
 files/
  ├── test_files/  - 클라이언트 전송용 파일 저장 위치
  └── received/    - 서버 수신 및 복호화 결과 저장 위치
@@ -56,3 +60,4 @@ files/
 
 ------------------------------------------
 감사합니다.
+
