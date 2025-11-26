@@ -2,7 +2,8 @@
 # 실제 키 파일(.pem)은 보안 문제로 GitHub에 올리지 않았습니다.
 # 실행하기 전에 직접 key_utils.py로 생성해야 합니다.
 
-client_private.pem
-client_public.pem
-server_private.pem
-server_public.pem
+# keys 폴더에 생성되는 파일
+# client_private.pem
+# client_public.pem
+# server_private.pem
+# server_public.pem
